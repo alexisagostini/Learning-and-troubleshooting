@@ -97,5 +97,14 @@ Create a git clone to my folder :
 
 ```Bash
 git clone https://github.com/alexisagostini/Learning-and-troubleshooting.git
+cd Learning-and-troubleshooting
 ```
+Add it to the source controle on the ressource pack
+- open folder
+- select the destination (~home/alexis/projets/Learning-and-troubleshooting)
 
+test to add a folder to the github:
+
+```bash
+Echo "print('Hello')" > fichier1.py
+```
