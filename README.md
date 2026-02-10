@@ -50,7 +50,7 @@ Host legcompute
 
 ```
   
-    I notice that the main way to access is the last one because i don't need legmagic.
+I notice that the main way to access is the last one because i don't need legmagic.
 
 ```Bash
 
