@@ -47,11 +47,15 @@ Host legcompute-remote
 Host legcompute
     HostName legcompute3.unine.ch
     User alexis
-    ```
+
+```
+  
     I notice that the main way to access is the last one because i don't need legmagic.
 
 ```Bash
+
 Host legcompute
     HostName legcompute3.unine.ch
     User alexis
+
 ```
