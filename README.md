@@ -60,3 +60,16 @@ Host legcompute
 
 ```
 Wirdly it doesn't work when i use this pack... 
+
+When i'm looking the output 2 mains errors are present : 
+
+the first one :
+
+```R
+
+bash: line 1: powershell: command not found
+...
+Failed to parse remote port from server output
+Resolver error
+
+```
