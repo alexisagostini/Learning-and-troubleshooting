@@ -81,3 +81,4 @@ I try it with linux and it works. I didn't understand that on the wiki there is 
 
 But it works now ! 
 
+Now let's try to connect with the github serveur 
