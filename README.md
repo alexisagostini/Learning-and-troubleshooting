@@ -82,3 +82,44 @@ I try it with linux and it works. I didn't understand that on the wiki there is 
 But it works now ! 
 
 Now let's try to connect with the github serveur 
+
+Create an folder "Projets" to my folder on the serveur 
+
+```BASH
+pwd
+ls
+mkdir -p projets
+cd projets
+pwd
+```
+
+Create a git clone to my folder :
+
+```Bash
+git clone https://github.com/alexisagostini/Learning-and-troubleshooting.git
+cd Learning-and-troubleshooting
+```
+Add it to the source controle on the ressource pack
+- open folder
+- select the destination (~home/alexis/projets/Learning-and-troubleshooting)
+
+test to add a folder to the github:
+
+```bash
+Echo "print('Hello')" > fichier1.py
+ls
+git add fichier1.py
+git commit -m "add test file"
+git push
+```
+Problem! Name and email was needed for commit
+
+solve:(AI help)
+
+```bash
+git config --global username alexis
+git config --globam user.email alexis.agostini@unine.ch
+git add fichier1.py
+git commit -m "add test file"
+git push
+```
