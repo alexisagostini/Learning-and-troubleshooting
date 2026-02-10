@@ -50,7 +50,7 @@ Host legcompute
 
 ```
   
-I notice that the main way to access is the last one because i don't need legmagic.
+I notice that the main way to access is the last one because i don't need legmagic:
 
 ```Bash
 
@@ -59,3 +59,4 @@ Host legcompute
     User alexis
 
 ```
+Wirdly it doesn't work when i use this pack... 
