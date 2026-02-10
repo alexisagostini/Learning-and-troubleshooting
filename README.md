@@ -121,5 +121,6 @@ git config --global username alexis
 git config --globam user.email alexis.agostini@unine.ch
 git add fichier1.py
 git commit -m "add test file"
-git push
+git push origine main
 ```
+commit can also make manualy one the source control
