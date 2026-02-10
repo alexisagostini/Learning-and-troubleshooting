@@ -73,7 +73,7 @@ Failed to parse remote port from server output
 Resolver error
 
 ```
-unfortunatly VS code try to use the powershell commande but there is no powershell...
+Unfortunatly VS code try to use the powershell commande but there is no powershell...
 
 In linux Powershell is mostly absente and it should use shell. Powershell is mostly use for windows environnement, the problem is that i try to connect with Windows... I should try to connect with linux to avoid to use powershell instead of shell 
 
