@@ -61,11 +61,11 @@ Host legcompute
 ```
 Wirdly it doesn't work when i use this pack... 
 
-When i'm looking the output 2 mains errors are present : 
+When i'm looking the output an error is present : 
 
 the first one :
 
-```R
+```bash
 
 bash: line 1: powershell: command not found
 ...
@@ -73,3 +73,11 @@ Failed to parse remote port from server output
 Resolver error
 
 ```
+unfortunatly VS code try to use the powershell commande but there is no powershell...
+
+In linux Powershell is mostly absente and it should use shell. Powershell is mostly use for windows environnement, the problem is that i try to connect with Windows... I should try to connect with linux to avoid to use powershell instead of shell 
+
+I try it with linux and it works. I didn't understand that on the wiki there is no windows access connect...
+
+But it works now ! 
+
