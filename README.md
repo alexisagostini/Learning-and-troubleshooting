@@ -109,6 +109,17 @@ test to add a folder to the github:
 Echo "print('Hello')" > fichier1.py
 ls
 git add fichier1.py
-Git commit-m "add test file"
+git commit -m "add test file"
+git push
+```
+Problem! Name and email was needed for commit
+
+solve:(AI help)
+
+```bash
+git config --global username alexis
+git config --globam user.email alexis.agostini@unine.ch
+git add fichier1.py
+git commit -m "add test file"
 git push
 ```
