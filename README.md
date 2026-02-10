@@ -2,7 +2,7 @@
 
 #1 connection to the legserv with visual code 
 
-# Issue 1: The code for the connection is hard to put in place :
+## Issue 1: The code for the connection is hard to put in place :
 
 after I have downlaod the ressource pack I try to join the serveur with that code on the wiki :
 
