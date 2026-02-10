@@ -107,4 +107,8 @@ test to add a folder to the github:
 
 ```bash
 Echo "print('Hello')" > fichier1.py
+ls
+git add fichier1.py
+Git commit-m "add test file"
+git push
 ```
