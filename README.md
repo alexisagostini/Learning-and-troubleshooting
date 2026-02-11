@@ -153,3 +153,12 @@ bcftools --version
 module list #vérification
 ```
 modules are load !
+
+## unload a module 
+```bash
+module unload Samtools
+module list
+module purge
+module list
+```
+
