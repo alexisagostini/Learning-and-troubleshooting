@@ -124,3 +124,32 @@ git commit -m "add test file"
 git push origine main
 ```
 commit can also make manualy one the source control
+
+# Modules
+
+ ## What module exist
+
+ ```bash
+module overview
+module avail
+```
+what module when I worked on thomas' courses can i find 
+
+```bash
+module spider FastQC
+module spider Bwa
+module spider Bowtie2
+module spider SAMtools
+```
+
+Apparently FastQC doesn't existe 
+
+## Load a module
+
+```bash
+module load SAMtools BCFtools
+samtools --version
+bcftools --version
+module list #vérification
+```
+modules are load !
