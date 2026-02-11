@@ -170,5 +170,9 @@ showq
 ```
 Sarai has a lot of work in progess!
 
-I will try in at another moment to avoid to take space
+I will try in at another moment to avoid to take CPU and Ram 
+
+I anyway enderstood the process, slum is a automatic schedule of calcule. 
+
+
 
