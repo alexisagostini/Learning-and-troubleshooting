@@ -162,3 +162,13 @@ module purge
 module list
 ```
 
+# Slurm 
+## Test of queue
+```Bash
+squeue
+showq
+```
+Sarai has a lot of work in progess!
+
+I will try in at another moment to avoid to take space
+
