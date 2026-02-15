@@ -228,3 +228,10 @@ the users nickname look like the person name...
 I think i need either a permission or an account. 
 
 I will ask to daniel on monday.
+
+I will try a way to conturn the problem : 
+
+ - installing micromamba
+ - activate it
+ - do the same thing in the new environement,
+Infortunatly the problem remain the same 
