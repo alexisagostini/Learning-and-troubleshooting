@@ -174,5 +174,28 @@ I will try in at another moment to avoid to take CPU and Ram
 
 I anyway enderstood the process, slum is a automatic schedule of calcule. 
 
+## Test slurm:
+Test if is works
+
+```bash
+Nano test_slurm
+```
+
+Inscription in the nano :
+```bash
+#!/bin/bash
+#SBATCH -J test_slurm
+#SBATCH -p normal.168h
+#SBATCH -c 1 
+#SBATCH --mem=4G
+#SBATCH -o test_slurm_%j.out
+
+echo "Début du job : $(date)"
+hostname
+sleep 60
+echo "Fin du job : $(date)"
+```
+
+
 
 
