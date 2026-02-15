@@ -195,7 +195,36 @@ hostname
 sleep 60
 echo "Fin du job : $(date)"
 ```
+First try:
 
+```bash
+sbatch test_slurm.sh
+```
+erreur 
 
+```bash
+sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified
+```
 
+Let try with an account ? 
 
+```bash
+sbatch --account=alexis test_slurm.sh
+```
+Feedback
+
+```bash
+sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified
+```
+
+Apparently the acount is not that simple...
+Let's see the name of others 
+
+```bash
+showq
+```
+the users nickname look like the person name...
+
+I think i need either a permission or an account. 
+
+I will ask to daniel on monday.
